@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="img/weather.png">
+    </head>
+
+    <body>
+        <div class="main-content">
+            {{>header}}
+            My name is <h2>{{name}}</h2> and i am <h2>{{age}}</h2> years old.
+            <br>
+            I am from <h3>{{loc}}</h3>
+            <p>This app uses the results of the weatherstack and mapbox API to search for weather forecast for a given location.</p>
+        </div>
+        
+        {{>footer}}
+    </body>
+</html>
